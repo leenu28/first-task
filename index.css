@@ -1,0 +1,68 @@
+.bubbles{
+    background-color: rgb(0, 255, 106);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0%;
+    animation:animate 4s ease-in infinite ;
+    backdrop-filter: blur(8px);
+    box-shadow: inset 1px -1px 15px white; 
+}
+body{
+    background-color: rgb(49, 47, 49);
+}
+@keyframes animate{
+    0% {
+      opacity: 0%;
+    }
+  
+  30%{
+    opacity: .2;
+  }
+  
+    100% {
+        transform:translatey(-1000%)
+    }
+}
+.a{
+    margin-left: 100px;
+    animation:animate 5s ease-in infinite ;
+}
+.b{
+    margin-left: 200px;
+    animation:animate 6s ease-in infinite ;
+}
+.c{
+    margin-left: 300px;
+    animation:animate 3s ease-in infinite ;
+}
+.d{
+    margin-left: 400px;
+    animation:animate 5s ease-in infinite ;
+}
+.e{
+    margin-left: 500px;
+    animation:animate 6s ease-in infinite ;
+}
+.f{
+    margin-left: 600px;
+    animation:animate 4s ease-in infinite ;
+}
+.g{
+    margin-left: 700px;
+    animation:animate 2s ease-in infinite ;
+}
+.h{
+    margin-left: 800px;
+    animation:animate 4s ease-in infinite ;
+}
+.i{
+    margin-left: 900px;
+    animation:animate 6s ease-in infinite ;
+}
+.bubbles:hover{
+animation-play-state:paused;
+cursor: pointer;
+background-color: brown;
+}
